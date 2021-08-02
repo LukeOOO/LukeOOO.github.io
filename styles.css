@@ -1,0 +1,26 @@
+* {
+    box-sizing: content-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background: linear-gradient(45deg, rgb(67, 26, 128) 0%, rgb(105, 45, 224) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+.title {
+    font-size: 10vw;
+    font-family: 'Dosis', sans-serif;
+    color: #dddddd;
+}
+.date {
+    font-size: 2vw;
+    font-family: 'Inter', sans-serif;
+    color: #a3a3a3;
+    margin-top: 2vh;
+}
